@@ -24,13 +24,13 @@ def convert_to_json(filename: str, data_dict: dict):
         print("Error writing to file.")
 
 # Example usage
-data = get_data('data.json', 'cars', 2)
-if data:
-    print(data)
+# data = get_data('data.json', 'cars', 2)
+# if data:
+#     print(data)
 
-# Example conversion
-data_dict = {'name': 'Mr.X', 'cars': [{'model': 'Audi'}, {'model': 'Ferrari'}]}
-convert_to_json('output.json', data_dict)
+# # Example conversion
+# data_dict = {'name': 'Mr.X', 'cars': [{'model': 'Audi'}, {'model': 'Ferrari'}]}
+# convert_to_json('output.json', data_dict)
 
 
 
