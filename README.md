@@ -1,2 +1,2 @@
 # JSONTool
-This helping tool/program in written in Python
+This helping tool/program is written in Python
